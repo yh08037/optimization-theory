@@ -76,6 +76,7 @@ title('Test error: Least Squares Classifier');
 
 %% PS2-4. Simplex algorithm
 % (b) sanity check using CVX
+
 w = [4; 3];
 A = [2, 3; -3, 2; 0, 2; 2, 1];
 b = [6; 3; 5; 4];
@@ -88,7 +89,7 @@ cvx_begin
         x >= 0;
 cvx_end
 
-fprintf('x1 = %1.1f, x2 = %1.1f\n', x(1), x(2));
+fprintf('x1 = %
 
 
 
