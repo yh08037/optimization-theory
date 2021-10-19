@@ -78,6 +78,12 @@ title('Test error: Least Squares Classifier');
 % (b) sanity check using CVX
 
 
+cvx_begin
+    variable 
+
+cvx_end
+
+
 
 
 
